@@ -1,11 +1,11 @@
 name: Farhan Ali
 
 on:
- push:
-   branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
-  build-angular-app:
+  building-file:
    runs-on: ubuntu-latest
 
    steps:
@@ -17,4 +17,4 @@ jobs:
      - name: install dependencies
        run: npm install
      - name: build angular app
-       run: npm run build  
+       run: npm run build
